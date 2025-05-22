@@ -1,6 +1,46 @@
 # Auto-backup-with-navicat
-Using navicat to realize batch automatic backup of database
+# Navicat Auto-Backup HTTP Trigger
 
+A lightweight HTTP server that triggers Windows scheduled tasks for Navicat database backups. The server:
+
+- Listens on a configurable port for HTTP requests
+- Authenticates requests using a Bearer token
+- Triggers a Windows scheduled task using `schtasks`
+- Monitors the task execution until completion
+- Returns standardized JSON responses with execution status and timing information
+
+Perfect for integrating database backups into automated workflows or triggering backups from remote systems via HTTP requests.
+
+## Key Features:
+- Token-based authentication
+- Real-time task status monitoring
+- JSON response format with timing metrics
+- Supports both header and query parameter authentication
+- Configurable polling interval
+
+## 中文描述
+
+# Navicat 自动备份 HTTP 触发器
+
+一个轻量级 HTTP 服务器，用于触发 Windows 计划任务执行 Navicat 数据库备份。该服务器：
+
+- 在可配置端口上监听 HTTP 请求
+- 使用 Bearer 令牌进行请求认证
+- 通过 `schtasks` 触发 Windows 计划任务
+- 实时监控任务执行直至完成
+- 返回标准化 JSON 响应，包含执行状态和时间信息
+
+非常适合将数据库备份集成到自动化工作流中，或通过 HTTP 请求从远程系统触发备份。
+
+## 主要特点：
+- 基于令牌的身份验证
+- 实时任务状态监控
+- JSON 格式响应，包含计时指标
+- 同时支持请求头和查询参数认证
+- 可配置的轮询间隔 
+
+
+# Run step
 ## 1、先在navicat上创建一个名为：oceanbase-auto-bak 的自动运行任务
 ![image](https://github.com/user-attachments/assets/f59295d5-0e6e-43b0-9553-2ffe0fe1a304)
 
