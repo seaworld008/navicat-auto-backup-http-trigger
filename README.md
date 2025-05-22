@@ -1,4 +1,3 @@
-# Auto-backup-with-navicat
 # Navicat Auto-Backup HTTP Trigger
 
 A lightweight HTTP server that triggers Windows scheduled tasks for Navicat database backups. The server:
