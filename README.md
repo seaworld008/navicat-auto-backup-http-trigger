@@ -11,7 +11,9 @@ Using navicat to realize batch automatic backup of database
 ![image](https://github.com/user-attachments/assets/c74cfcee-aa22-432c-8422-aacc270f31da)
 
 4、使用Python3环境启动这个main.py的备份脚本,脚本默认会监听本机的8089端口
+
 注意：Python脚本中navicat的自动备份任务名要配置必须一致，可以改成自己的，一致就行
+
 cd ./Auto-backup-with-navicat/  && ./main.py
 
 5、在命令行访问本机启动的8089端口，触发自动备份（注意token需要带上，可以在脚本中修改成自定义的token）
