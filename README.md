@@ -217,7 +217,8 @@ python main.py
 ```
 
 ## 5、在命令行访问本机启动的8089端口，触发自动备份（注意token需要带上，可以在脚本中修改成自定义的token）
-`curl.exe -N "http://127.0.0.1:8089/?token=ssifM7jf40aK6f9isfuwsKBUKMpxRnMp2s3B3tUJINU"`
+```curl.exe -N "http://127.0.0.1:8089/?token=ssifM7jf40aK6f9isfuwsKBUKMpxRnMp2s3B3tUJINU"
+```
 
 执行结果如下图：
 ![img_v3_02m7_894f3462-a342-4fed-87cb-c78599c71fbg](https://github.com/user-attachments/assets/4242aba4-f545-4a01-82fd-081a66a01d58)
