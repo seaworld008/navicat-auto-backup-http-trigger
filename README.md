@@ -1,4 +1,4 @@
-# Navicat Auto-Backup HTTP Trigger User Manual / 使用手册
+# Navicat Auto-Backup HTTP Trigger User Manual
 
 ## English Version
 
